@@ -24,4 +24,9 @@
 
 nav a{
     color: #FFF;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: #FFF;
 }
