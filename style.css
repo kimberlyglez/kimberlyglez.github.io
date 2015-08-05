@@ -23,6 +23,9 @@
     }
 
 nav a{
+    position: fixed;
+    top: 50px;
+    right: 50px;
     color: #FFF;
     text-decoration: none;
     background-color: #98948F;
