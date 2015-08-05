@@ -21,11 +21,16 @@
       color: #727272;
       font-family: 'Josefin Slab', serif;
     }
+    
+    nav {
+       position: fixed;
+    top: 0px;
+    right: 0px; 
+        
+    }
 
 nav a{
-    position: fixed;
-    top: 0px;
-    right: 0px;
+    
     color: #FFF;
     text-decoration: none;
     background-color: #98948F;
