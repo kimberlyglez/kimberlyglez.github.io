@@ -44,11 +44,9 @@ nav a:visited{
     color: #FFF;
 }
 section {
-  background: -webkit-linear-gradient(90deg, #70e1f5 10%, #ffd194 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #70e1f5 10%, #ffd194 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #70e1f5 10%, #ffd194 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #70e1f5 10%, #ffd194 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #70e1f5 10%, #ffd194 90%); /* W3C */
+
+
+ background: linear-gradient(90deg, rgba(112, 225, 245, 0.27) 10%, rgba(255, 209, 148, 0.47) 90%) repeat scroll 0% 0% rgba(0, 0, 0, 0);
         
     height: 250px;
     width: 100%;
