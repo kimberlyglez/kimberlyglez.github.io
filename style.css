@@ -50,6 +50,8 @@ section {
 }
 section a{
     color: #FFF;
-    border: 1px solod #FFF;
+    border: 1px solid #FFF;
     padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
