@@ -41,3 +41,6 @@ nav a{
 nav a:visited{
     color: #FFF;
 }
+section {
+    background-color: red;
+}
