@@ -5,27 +5,10 @@
     font-weight: bold;
     padding: 8px 6px;
     text-transform: uppercase;
-}
-a:focus {
-    outline: thin dotted;
-    outline-offset: -2px;
-}
-a:hover, a:focus {
-    color: #2A6496;
-    text-decoration: underline;
-}
-a {
-    color: #428BCA;
-    text-decoration: none;
-}
-a {
-    background: transparent none repeat scroll 0px 0px;
-}
-* {
-    box-sizing: border-box;
-}
-.nav {
-    list-style: outside none none;
+
+
+.nav li {
+  display: inline;
 }
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
