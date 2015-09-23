@@ -23,10 +23,13 @@ body {
     font-size: 14px;
     line-height: 1.429;
     color: #514E4E;
+    text-align: center;
 }
 h1 {
     color: #DA81F5;
+    text-align: center;
 }
 h2 {
+    text-align: center;
     color: #81DAF5;
 }
