@@ -6,17 +6,26 @@
     padding: 8px 6px;
     text-transform: uppercase;
 }
-.nav {
-    padding-top: 4px;
-    padding-bottom: 4px;
+a:focus {
+    outline: thin dotted;
+    outline-offset: -2px;
 }
-.nav {
-    margin-bottom: 0px;
-    padding-left: 0px;
-    list-style: outside none none;
+a:hover, a:focus {
+    color: #2A6496;
+    text-decoration: underline;
+}
+a {
+    color: #428BCA;
+    text-decoration: none;
+}
+a {
+    background: transparent none repeat scroll 0px 0px;
 }
 * {
     box-sizing: border-box;
+}
+.nav {
+    list-style: outside none none;
 }
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
