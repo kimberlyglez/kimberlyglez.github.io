@@ -70,10 +70,6 @@ header {
     background-color: #FFF;
 }
 
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px; 
-   background:#FFF;
+footer {
+ background-color: #FFF;
 }
