@@ -8,6 +8,7 @@
    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.1/css/lightgallery.css" rel='stylesheet'>
    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.1/js/lightgallery.min.js"></script>
+ <link href="path/to/lightbox.css" rel="stylesheet">
 
 <style>
     #content {
@@ -33,20 +34,11 @@
 <br>
 
 <h1>GALLERY</h1><br>
-<div id="lightgallery"><center>
-<a width="500" href="http://imgur.com/NbATT43.jpg">
-<img width="300" src="http://i.imgur.com/xSoAJqm.jpg">
-</a>
-<a width="500" href="http://imgur.com/XKRlPZx.jpg">
-<img width="300" src="http://i.imgur.com/O69CaB2.jpg">
-</a>
-<a width="500" href="http://imgur.com/B3AjfCa.jpg">
-<img width="300"  src="http://i.imgur.com/grz8R2n.jpg">
-</a>
-<br>
-</center>
+<div>
+<a href="http://i.imgur.com/xSoAJqm.jpg" data-lightbox="portfolio">ad</a>
+<a href="http://i.imgur.com/O69CaB2.jpg" data-lightbox="portfolio">magazine</a>
+<a href="http://i.imgur.com/grz8R2n.jpg" data-lightbox="portfolio">logo</a>
 </div>
-
 
   <script type="text/javascript">
     $(document).ready(function() {
@@ -54,4 +46,5 @@
     });
 </script>
 </div>
+<script src="path/to/lightbox.js"></script>
 </body>
