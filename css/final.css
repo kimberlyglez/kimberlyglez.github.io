@@ -1,11 +1,10 @@
-
 .nav a {
     color: rgba(14, 131, 177, 0.84);
     font-size: 23px;
     font-weight: bold;
     padding: 8px 6px;
     text-transform: uppercase;
-
+}
 
 .nav li {
   display: inline;
